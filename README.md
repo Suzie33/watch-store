@@ -1,2 +1,2 @@
 # watch-store
-watch store, markup on Figma
+watch store, mockup on Figma
