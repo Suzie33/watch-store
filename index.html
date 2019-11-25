@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Watches store</title>
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Prata|Roboto:400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/9a9754a857.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
 
@@ -16,15 +16,15 @@
                     <a><img src="img/logo.svg" alt="logo" width="103.68" height="26"></a>
                 </div>
                 <div class="header-action-bar">
-                    <a href="#"><img src="img/search.svg" alt="search" width="16" height="16"></a>
-                    <a href="#"><img src="img/heart.svg" alt="heart" width="19" height="16"></a>
-                    <a href="#"><img src="img/cart.svg" alt="cart" width="18" height="16"></a>
+                    <a class="social-btn" href="#">Search</a>
+                    <a class="social-btn" href="#">Heart</a>
+                    <a class="social-btn" href="#">Cart</a>
                 </div>
             </div>
             <div class="social-buttons">
-                <a href="#"><img src="img/instagram_icon.svg" alt="instagram" width="18" height="18"></a>
-                <a href="#"><img src="img/twitter_icon.svg" alt="twitter" width="17" height="14"></a>
-                <a href="#"><img src="img/facebook_icon.svg" alt="facebook" width="9" height="17"></a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
             </div>
 
             <div class="header-promo">
@@ -50,36 +50,41 @@
 
             <a href="#">Смотреть все</a>
 
-            <div class="catalog-item">
+            <article class="catalog-item">
                 <h3 class="catalog-item-title">RADO</h3>
                 <p class="catalog-item-price">
                     65 300
                 </p>
+                <img src="img/watch_1.png" alt="watch_1" width="289" height="298">
                 <a href="#">Подробнее</a>
-            </div>
+            </article>
 
-            <div class="catalog-item">
+            <article class="catalog-item">
                 <h3 class="catalog-item-title">RADO</h3>
                 <p class="catalog-item-price">
                     65 300
                 </p>
+                <img src="img/watch_2.png" alt="watch_2" width="470" height="472">
                 <a href="#">Подробнее</a>
+            </article>
             
-            <div class="catalog-item">
+            <article class="catalog-item">
                 <h3 class="catalog-item-title">BVLGARI</h3>
                 <p class="catalog-item-price">
                     81 700
                 </p>
+                <img src="img/watch_3.png" alt="watch_3" width="254" height="220">
                 <a href="#">Подробнее</a>
-            </div>
+            </article>
 
-            <div class="catalog-item">
+            <article class="catalog-item">
                 <h3 class="catalog-item-title">BVLGARI</h3>
                 <p class="catalog-item-price">
                     72 700
                 </p>
+                <img src="img/watch_4.png" alt="watch_4" width="225" height="226">
                 <a href="#">Подробнее</a>
-            </div>
+            </article>
         </section>
 
         <article class="features">
@@ -87,7 +92,10 @@
 
             <p>Все часы производятся в Швейцарии и имеют сертификаты качества. Настоящие швейцарские часы — это предмет гордости и престижа.</p>
 
-            <a href="#">СМОТРЕТЬ КАТАЛОГ</a>
+            <a class="btn" href="#">СМОТРЕТЬ КАТАЛОГ</a>
+
+            <img src="img/photo_banner.png" alt="photo_banner" width="521" height="414">
+            <i class="fas fa-chevron-left"></i> 01 <i class="fas fa-chevron-right"></i>
         </article>
 
         <section class="social-section">
@@ -96,26 +104,28 @@
             <p>Подписывайтесь на <strong>@conquest_watch</strong> в соцсетях и узнавайте о новинках и акциях первыми.</p>
 
             <div class="social-buttons">
-                <a href="#">Twitter</a>
-                <a href="#">FB</a>
-                <a href="#">IG</a>
+                <a class="social-btn" href="#">Twitter</a>
+                <a class="social-btn" href="#">FB</a>
+                <a class="social-btn" href="#">IG</a>
             </div>
         </section>
 
         <footer class="footer">
             <div class="footer-column">
-                <div class="footer-logo">CONQUEST</div>
-                8 (499) 450-47-97
-                info@conquest.watch.ru
+                <div class="footer-logo">
+                    <a hfef="#"><img src="img/logo-footer.png" alt="logo-footer" width="130" height="34.02"></a>
+                </div>
+                <p>8 (499) 450-47-97</p>
+                <p>info@conquest.watch.ru</p>
             </div>
             <div class="footer-column">
                 <nav class="footer-menu">
                     <h3>о компании</h3>
                     <ul>
-                        <li>Наши магазины</li>
-                        <li>Вакансии</li>
-                        <li>Сертификаты</li>
-                        <li>Отзывы</li>
+                        <li><a href="#">Наши магазины</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Сертификаты</a></li>
+                        <li><a href="#">Отзывы</a></li>
                     </ul>
                 </nav>
             </div>
@@ -123,20 +133,20 @@
                 <nav class="footer-menu">
                     <h3>покупателям</h3>
                     <ul>
-                        <li>Каталог товаров</li>
-                        <li>Как заказать?</li>
-                        <li>FAQ</li>
-                        <li>Корпоративным клиентам</li>
+                        <li><a href="#">Каталог товаров</a></li>
+                        <li><a href="#">Как заказать?</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Корпоративным клиентам</a></li>
                     </ul>
             </div>
             <div class="footer-column">
                 <nav class="footer-menu">
                     <h3>оплата и доставка</h3>
                     <ul>
-                        <li>Способы оплаты</li>
-                        <li>Время доставки</li>
-                        <li>Гарантии и ремонт</li>
-                        <li>Возврат и компенсация</li>
+                        <li><a href="#">Способы оплаты</a></li>
+                        <li><a href="#">Время доставки</a></li>
+                        <li><a href="#">Гарантии и ремонт</a></li>
+                        <li><a href="#">Возврат и компенсация</a></li>
                     </ul>
                 </nav>
             </div>
