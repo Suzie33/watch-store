@@ -1,7 +1,10 @@
 body {
+    min-width: 1276px;
+
     font-family: Roboto;
     font-size: 16px;
     line-height: 150%;
+
     color: #444240;
 }
 
@@ -16,20 +19,26 @@ h1, h2, h3, p {
 
 .container-wide {
     position: relative;
-    max-width: 1255px;
+    width: 1255px;
+    margin: 0 auto;
+}
+
+.container-medium {
+    width: 1170px;
     margin: 0 auto;
 }
 
 .btn {
     display: inline-block;
+    vertical-align: top;
     padding: 26px 38px 27px;
-    text-transform: uppercase;
+    
     font-family: Roboto;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 .header {
@@ -43,22 +52,22 @@ h1, h2, h3, p {
     padding-top: 31px;
 }
 
-.header-top .menu-btn {
-    margin-right: 24px;
-}
+    .header-top .menu-btn {
+        margin-right: 24px;
+    }
 
-.header-top .header-action-bar {
-    margin-left: auto;
-}
+    .header-top .header-action-bar {
+        margin-left: auto;
+    }
 
 .action-btn {
     font-size: 0px;
     margin-right: 23px;
 }
 
-.action-btn:last-child {
-    margin-right: 0px;
-}
+    .action-btn:last-child {
+        margin-right: 0px;
+    }
 
 .header-left {
     display: flex;
@@ -66,26 +75,28 @@ h1, h2, h3, p {
     align-items: center;
 }
 
-.header-left .social-buttons {
-    display: flex;
-    flex-direction: column;
-    margin-right: 108px;
-}
+    .header-left .social-buttons {
+        display: flex;
+        flex-direction: column;
+        margin-right: 108px;
+    }
 
-.header-left .social-btn {
-    font-size: 0px;
-    margin-bottom: 13px;
-}
+    .header-left .social-btn {
+        font-size: 0px;
+        margin-bottom: 13px;
+    }
 
-.header-left .social-btn:last-child {
-    margin-bottom: 0px;
+    .header-left .social-btn:last-child {
+        margin-bottom: 0px;
 }
 
 .header-promo h1 {
     padding-left: 4px;
     font-family: Playfair Display;
+    font-weight: normal;
     font-size: 45px;
     line-height: 60px;
+
     color: #1B1A17;
 }
 
@@ -93,8 +104,10 @@ h1, h2, h3, p {
     padding-left: 4px;
     margin-top: 16px;
     font-family: Playfair Display;
+    font-weight: normal;
     font-size: 30px;
     line-height: 40px;
+
     color: #1B1A17;
 }
 
@@ -110,16 +123,72 @@ h1, h2, h3, p {
 }
 
 .header .btn {
+    color: #FFFFFF;
     background-color: #444240;
 }
 
-
-
 .watch-main {
     position: absolute;
-    left: 662px;
+    left: 607px;
     top: -9.41px;
     transform: rotate(-0.18deg);
+}
+
+.watch-feature {
+    font-family: Prata;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1B1A17;
+}
+
+.price {
+    position: absolute;
+    left: 528px;
+    top: 138px;
+}
+
+    .price p {
+        display: inline-block;
+        margin-right: 7px;
+    }
+
+.characteristic {
+    position: absolute;
+    left: 1075px;
+    top: 636px;
+}
+
+.popular-items {
+    padding-top: 79px;
+    background: #fff;
+}
+
+.section-title {
+    font-family: Playfair Display;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 43px;
+
+    color: #1B1A17;
+}
+
+.popular-items .section-title {
+    text-align: center;
+}
+
+.catalog-link {
+    position: relative;
+    top: -10px;
+
+    text-align: right;
+}
+
+.catalog-link a {
+    font-weight: 500;
+    line-height: 19px;
+
+    color: #444240;
 }
 
 .features {
