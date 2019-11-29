@@ -162,7 +162,6 @@ h1, h2, h3, p {
 .popular-items {
     padding-top: 79px;
     padding-bottom: 80px;
-    min-height: 897px;
     background: #fff;
 }
 
@@ -202,6 +201,7 @@ h1, h2, h3, p {
 .catalog-item {
     position: relative;
     background-color: #FDFDFB;
+    padding: 40px;
 }
 
 .catalog-row-top {
@@ -217,52 +217,54 @@ h1, h2, h3, p {
 }
 
 .catalog-item-top-left {
-    flex-basis: 370px;
+    width: 290px;
     margin-right: 40px;
 }
 
-.catalog-item-top-left img {
-    position: absolute;
-    top: 84px;
-    left: 41px;
-}
+    .catalog-item-top-left img {
+        position: absolute;
+        top: 84px;
+        left: 41px;
+    }
 
 .catalog-item-top-right {
+    padding: 55px;
+    padding-bottom: 48px;
+
     flex-grow: 1;
 }
 
-.catalog-item-top-right img {
-    position: absolute;
-    top: 6px;
-    left: 230px;
+    .catalog-item-top-right img {
+        position: absolute;
+        top: 6px;
+        left: 230px;
 
-    transform: scale(1.03);
-    transform-origin: top;
-}
+        transform: scale(1.03);
+        transform-origin: top;
+    }
 
 .catalog-item-bottom-left {
-    flex-basis: 565px;
+    width: 485px;
     margin-right: 40px;
-    height: 220px;
+    height: 140px;
 }
 
-.catalog-item-bottom-left img {
-    position: absolute;
-    top: 0px;
-    left: 209px;
-}
-
+    .catalog-item-bottom-left img {
+        position: absolute;
+        top: 0px;
+        left: 209px;
+    }
 
 .catalog-item-bottom-right {
-    flex-basis: 565px;
-    height: 220px;
+    width: 485px;
+    height: 140px;
 }
 
-.catalog-item-bottom-right img {
-    position: absolute;
-    top: -3px;
-    left: 278px;
-}
+    .catalog-item-bottom-right img {
+        position: absolute;
+        top: -3px;
+        left: 278px;
+    }
 
 .catalog-item-title {
     font-family: Playfair Display;
@@ -273,6 +275,50 @@ h1, h2, h3, p {
     letter-spacing: 0.03em;
 
     color: rgba(27, 26, 23, 0.82);
+}
+
+.catalog-item-top-right .catalog-item-title {
+    font-size: 18px;
+}
+
+.catalog-item-price {
+    margin-top: 6px;
+
+    font-family: Prata;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: rgba(27, 26, 23, 0.82);
+}
+
+.catalog-item-top-right .catalog-item-price {
+    margin-top: 8px;
+
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.catalog-item-details {
+    display: block;
+    margin-top: 77px;
+    padding-left: 48px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #1B1A17;
+}
+
+.catalog-item-top-left .catalog-item-details {
+    margin-top: 320px;
+}
+
+.catalog-item-top-right .catalog-item-details {
+    margin-top: 287px;
+    padding-left: 66px;
 }
 
 .features {
