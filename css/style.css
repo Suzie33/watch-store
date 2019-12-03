@@ -405,11 +405,29 @@ h1, h2, h3, p {
 
     background: 
     url("../img/social_photo_3.png") no-repeat right top,
-    url("../img/social_photo_1.png") no-repeat right 387px top 0px, 
+    url("../img/social_photo_1.png") no-repeat right 387px top 0px,
     url("../img/social_photo_2.png") no-repeat right 387px top 238px;
-
     background-size: 
     377px 460px, 
     242px 228px, 
     242px 222px;
 }
+
+.footer {
+    padding: 67px 0;
+
+    background-color: #444240;
+}
+
+.footer-phone,
+.footer-email {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-phone {
+    margin-top: 23px;
+    margin-bottom: 15px;
+}
+
