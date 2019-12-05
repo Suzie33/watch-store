@@ -419,6 +419,27 @@ h1, h2, h3, p {
     background-color: #444240;
 }
 
+.footer .container-narrow {
+    display: flex;
+}
+
+.footer-column {
+    margin-right: 118px;
+    width: 180px;
+}
+
+.footer-column:first-of-type {
+    width: 160px;
+}
+
+.footer-column:nth-of-type(2) {
+    width: 123px;
+}
+
+.footer-column:last-of-type {
+    margin-right: 0;
+}
+
 .footer-phone,
 .footer-email {
     font-size: 12px;
@@ -428,6 +449,40 @@ h1, h2, h3, p {
 
 .footer-phone {
     margin-top: 23px;
-    margin-bottom: 15px;
+    margin-bottom: 11px;
+}
+
+.footer-menu h3 {
+    margin-top: 12px;
+    margin-bottom: 28px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    list-style: none;
+}
+
+.footer-menu li a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: rgba(255, 255, 255, 0.75);
 }
 
