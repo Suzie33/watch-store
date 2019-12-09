@@ -89,7 +89,6 @@ h1, h2, h3, p {
     .header-left .social-buttons {
         display: flex;
         flex-direction: column;
-        margin-right: 108px;
     }
 
     .header-left .social-btn {
@@ -101,8 +100,15 @@ h1, h2, h3, p {
         margin-bottom: 0px;
 }
 
+.header-promo {
+    z-index: 1;
+    padding-left: 108px;
+    background: url(../img/line1.png) no-repeat 47px 35px;
+}
+
 .header-promo h1 {
     padding-left: 4px;
+
     font-family: Playfair Display;
     font-weight: normal;
     font-size: 45px;
@@ -133,16 +139,19 @@ h1, h2, h3, p {
     color: rgba(27, 26, 23, 0.82);
 }
 
-.header .btn {
+.header-promo .btn {
     color: #FFFFFF;
     background-color: #444240;
 }
 
 .watch-main {
     position: absolute;
-    left: 607px;
+    left: 407px;
     top: -9.41px;
+    padding-left: 200px;
+
     transform: rotate(-0.18deg);
+    background: url(../img/main_ellipse.png) no-repeat 17px 0px;
 }
 
 .watch-feature {
