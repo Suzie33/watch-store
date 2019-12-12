@@ -69,10 +69,11 @@ h1, h2, h3, p {
 
     .header-top .header-action-bar {
         margin-left: auto;
+
+        font-size: 0px;
     }
 
 .action-btn {
-    font-size: 0px;
     margin-right: 23px;
 }
 
@@ -89,10 +90,11 @@ h1, h2, h3, p {
     .header-left .social-buttons {
         display: flex;
         flex-direction: column;
+
+        font-size: 0px;
     }
 
     .header-left .social-btn {
-        font-size: 0px;
         margin-bottom: 13px;
     }
 
@@ -368,7 +370,7 @@ h1, h2, h3, p {
     line-height: 21px;
 
     color: #1B1A17;
-    background: url(../img/line3.png) no-repeat 0px 12px;
+    background: url(../img/line3.png) no-repeat 0px 11px;
 }
 
 .catalog-item-details:hover {
@@ -396,7 +398,12 @@ h1, h2, h3, p {
     padding-top: 52px;
     padding-bottom: 53px;
 
-    background-image: linear-gradient(to right, #F7F5EF 36%, #FDFDFB 36%);
+    background: 
+    url(../img/ellipse4.png) no-repeat 100% 100%,
+    url(../img/ellipse5.png) no-repeat 100% 0%,
+    
+    linear-gradient(to right, #F7F5EF 36%, #FDFDFB 36%);
+
 }
 
 .left-column {
@@ -427,6 +434,14 @@ h1, h2, h3, p {
     background-color: #D4B098;
 }
 
+.features .btn:hover {
+    background-color: rgba(212, 176, 152, 0.705);
+}
+
+.features .btn:active {
+    color: rgba(255, 255, 255, 0.705);
+}
+
 .photo-switch {
     margin-left: 375px;
     margin-top: 15px;
@@ -447,19 +462,6 @@ h1, h2, h3, p {
     padding: 80px 0;
 }
 
-.social-section .section-title {
-    padding-top: 140px;
-}
-
-.social-tip {
-    margin-top: 40px;
-    margin-bottom: 50px;
-    width: 376px;
-
-    line-height: 27px;
-    
-}
-
 .social-section .container-medium {
     min-height: 460px;
 
@@ -471,6 +473,30 @@ h1, h2, h3, p {
     377px 460px, 
     242px 228px, 
     242px 222px;
+}
+
+.social-section .section-title {
+    padding-top: 140px;
+}
+
+.social-tip {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 376px;
+
+    line-height: 27px;
+}
+
+.social-section .social-buttons {
+    font-size: 0px;
+}
+
+.social-btn {
+    margin-right: 18px;
+}
+
+.social-btn:last-child {
+    margin-right: 0px;
 }
 
 .footer {
@@ -546,3 +572,10 @@ h1, h2, h3, p {
     color: rgba(255, 255, 255, 0.75);
 }
 
+.footer-menu li a:hover {
+    text-decoration: underline;
+}
+
+.footer-menu li a:active {
+    color: rgba(255, 255, 255, 0.35);
+}
