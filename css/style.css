@@ -491,11 +491,11 @@ h1, h2, h3, p {
     font-size: 0px;
 }
 
-.social-btn {
+.social-section .social-btn {
     margin-right: 18px;
 }
 
-.social-btn:last-child {
+.social-section .social-btn:last-child {
     margin-right: 0px;
 }
 
