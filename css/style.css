@@ -269,7 +269,7 @@ h1, h2, h3, p {
     background: #FDFDFB url(../img/ellipse.png) no-repeat 41px 84px;
 }
 
-    .catalog-item-top-left img {
+    .catalog-item-top-left .catalog-item-photo {
         position: absolute;
         top: 92px;
         left: 49px;
@@ -286,7 +286,7 @@ h1, h2, h3, p {
     background: #FDFDFB url(../img/ellipse2.png) no-repeat 459px 0px;
 }
 
-    .catalog-item-top-right img {
+    .catalog-item-top-right .catalog-item-photo {
         position: absolute;
         top: 2px;
         left: 230px;
@@ -303,7 +303,7 @@ h1, h2, h3, p {
     background: #FDFDFB url(../img/ellipse3.png) no-repeat 231px 0px;
 }
 
-    .catalog-item-bottom-left img {
+    .catalog-item-bottom-left .catalog-item-photo {
         position: absolute;
         top: 0px;
         left: 209px;
@@ -318,7 +318,7 @@ h1, h2, h3, p {
     background: #FDFDFB url(../img/ellipse3.png) no-repeat 281px 0px;
 }
 
-    .catalog-item-bottom-right img {
+    .catalog-item-bottom-right .catalog-item-photo {
         position: absolute;
         top: -3px;
         left: 278px;
@@ -356,6 +356,14 @@ h1, h2, h3, p {
 
     font-size: 16px;
     line-height: 22px;
+}
+
+.catalog-item-price img {
+    margin-left: 4.2px;
+}
+
+.catalog-item-top-right .catalog-item-price img {
+    margin-left: 4.3px;
 }
 
 .catalog-item-details {
